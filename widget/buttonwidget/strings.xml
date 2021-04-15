@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">widgetPrj</string>
+    <string name="btnColor">버튼 1</string>
+    <string name="textView1">공격은 최선의 방어일까? 방어는 최선의 공격일까? 나는 공격을 최선의 방어라고 생각하지만 어떤 방면에선 방어는 최선의 공격이라고 생각하기도해.</string>
+    <string name="hint">여기에 써주라 ㅋㅋ</string>
+    <string name="notbtn">나는 눌러도 의미없엉</string>
+</resources>
