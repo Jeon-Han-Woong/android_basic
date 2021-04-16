@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/firstnum"
+            android:layout_span="5"
+            android:hint="First Num" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/secondnum"
+            android:layout_span="5"
+            android:hint="Second Num" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="2"
+            />
+
+        <Button
+
+            android:id="@+id/btn3"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="3" />
+
+        <Button
+
+            android:id="@+id/btn4"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="4" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="7"
+            />
+
+        <Button
+
+            android:id="@+id/btn8"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="8" />
+
+        <Button
+
+            android:id="@+id/btn9"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="9" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/plus"
+            android:textSize="20dp"
+            android:text="+" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/minus"
+            android:textSize="20dp"
+            android:text="-" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/multiple"
+            android:textSize="20dp"
+            android:text="*" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/division"
+            android:textSize="20dp"
+            android:text="/" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_span="2"
+            android:textSize="30dp"
+            android:text="계산 결과 : "></TextView>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_margin="20dp"
+            android:layout_span="2"
+            android:textSize="30dp"
+            android:text="결과값"></TextView>
+    </TableRow>
+
+
+
+</TableLayout>
