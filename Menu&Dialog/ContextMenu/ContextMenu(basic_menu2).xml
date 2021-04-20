@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="버튼 180도 돌리기"
+        android:id="@+id/rotateBtn">
+    </item>
+
+    <item
+        android:title="Y축 2배"
+        android:id="@+id/sizeUpBtn">
+        
+    </item>
+</menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="포유류">
+
+        <menu>
+
+            <item
+                android:id="@+id/dog"
+                android:title="강아지">
+
+            </item>
+
+            <item
+                android:id="@+id/cat"
+                android:title="고양이">
+
+            </item>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:title="조류">
+
+        <menu>
+
+            <item
+                android:id="@+id/eagle"
+                android:title="독수리">
+
+            </item>
+
+            <item
+                android:id="@+id/penguin"
+                android:title="펭귄">
+
+            </item>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:title="파충류">
+
+        <menu>
+
+            <item
+                android:id="@+id/lizard"
+                android:title="도마뱀">
+
+            </item>
+
+            <item
+                android:id="@+id/turtle"
+                android:title="거북이">
+            </item>
+
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- 메뉴 내부의 옵션들은 <items>라는 태그를 활용해서 선언.
+     id로 아이디값 지정이 가능하고, 보여지는 문장은 text가 아닌
+     title 속성으로 지정 가능. -->
+    <item
+        android:id="@+id/itemRed"
+        android:title="배경색(빨강)">
+    </item>
+
+    <item
+        android:id="@+id/itemBlue"
+        android:title="배경색(파랑)">
+    </item>
+
+    <item
+        android:id="@+id/itemGreen"
+        android:title="배경색(초록)">
+    </item>
+
+<!--  버튼 내부에도 추가 버튼을 만들 수 있다.  -->
+    <item
+        android:title="버튼 변경 ->">
+        <!-- 추가버튼은 아이템 내부에 mnue태그를 다시 중첩해 넣어 선언 -->
+        <menu>
+            <item
+                android:id="@+id/rotateBtn"
+                android:title="버튼을 45도 회전시키기"/>
+
+            <item
+                android:id="@+id/sizeUp"
+                android:title="버튼 크기 2배로"/>
+        </menu>
+
+    </item>
+
+
+</menu>

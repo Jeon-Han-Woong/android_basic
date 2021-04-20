@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.ict.webview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+<!--  웹 브라우저 접속 권한을 주기 위해
+      application 태그 전에 허가 코드를 작성. -->
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/mynamezz"
+        android:label="간단 웹브라우저"
+        android:roundIcon="@drawable/mynamezz"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Webview">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
