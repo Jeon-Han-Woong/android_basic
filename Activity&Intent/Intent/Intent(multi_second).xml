@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#DF8D15">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나는 두번째"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        ></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"
+        android:backgroundTint="#3258DF"
+        android:id="@+id/returnSecond"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="네번째로"
+        android:backgroundTint="#3258DF"
+        android:id="@+id/goFour"></Button>
+
+</LinearLayout>
